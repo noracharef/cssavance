@@ -1,10 +1,47 @@
 header {
     background-image: url("../images/header.jpg");
     background-size: cover;
-    height: 568px;
+    background-color: #ccad91;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 60px;
+    color: #5e1123;
+    margin: 0;
+}
 
+
+#navigation { 
+
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background: #5e1123; 
+    margin: 0;
+  }
+
+  #navigation li a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px; 
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: #ccad91;
+  text-decoration: none;
+}
+
+
+
+
+#navigation li {
+    
+
+  display: inline;
 }
