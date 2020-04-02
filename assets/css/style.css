@@ -1,3 +1,7 @@
+body {
+    background-color: #252120;
+}
+
 header {
     background-image: url("../images/header.jpg");
     background-size: cover;
@@ -11,7 +15,6 @@ header {
     margin: 0;
 }
 
-
 ul { 
 
     padding: 20px;
@@ -21,9 +24,9 @@ ul {
     list-style: none;
     background: #5e1123; 
     margin: 0;
-  }
-
-  
+ 
+}
+ 
 li a {
 
     font-size: 20px;
@@ -31,15 +34,99 @@ li a {
     color: #ccad91;
     text-decoration: none;
 }
+  
 
-
-
-.text1 {
+#presentation {
 
     font-size: 17px;
-    background-color:#d0edfb;
+    background-color:#252120;
     margin: 0;
-    padding: 40px;
+    padding: 25px;
     text-align: justify;
+
     
-        }
+ }
+
+ #presentation p {
+
+    font-size: 17px;
+    background-color:#5e1123;
+    padding: 44px;
+    text-align: justify;
+    color: #ccad91;
+    
+ }
+
+
+#blockLine {
+    display:flex;
+}
+
+article {
+    margin: 15px 8px;
+    padding:5px;
+    text-align:center;
+    background-color: #252120;
+    font-size: 25px;
+    color: #ccad91;
+}
+
+
+img {
+    width:90%;
+    background-color: #ccad91;
+    padding: 14px;
+}   
+
+article p {
+
+    text-align : justify;
+    background-color: #5e1123;
+    padding: 19px;
+    color: #ccad91;
+    font-size: 16px;
+}
+
+footer {
+
+padding:30px; 
+background-color: #d0edfb;
+text-align: center;
+color: #252120;
+
+}
+
+@media screen and (max-width: 992px) {
+
+    #blockLine {
+flex-direction: column;
+
+}   
+
+#navIcon {
+
+    display: block; 
+}
+
+footer {
+
+    text-align: center;
+
+}
+}
+
+@media screen and (max-width: 680px) {
+
+    a, form {
+    display: none;
+    
+}
+}
+
+
+ 
+
+
+
+
+
